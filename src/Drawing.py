@@ -14,7 +14,7 @@ while True:
     image = cv2.circle(image, (300, 300), 60, (0,0,255), -1)
     font = cv2.FONT_HERSHEY_SIMPLEX
     image = cv2.putText(image, 'Hello world', (200, height-10), font, 2, (255,255,255), 3, cv2.LINE_AA)
-    #                   img     text      position(x,y) center   font  size  color       thickness   line type
+    #                   img     text      position       font  size  color         thickness   line type
 
     cv2.imshow('frame', image)
 
